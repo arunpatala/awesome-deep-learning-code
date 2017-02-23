@@ -2,9 +2,9 @@
 
 ### DATASETS
 
-1.  [MNIST](http://yann.lecun.com/exdb/mnist/) Handwritten digits
-2.  [Google House Numbers](http://ufldl.stanford.edu/housenumbers/) from street view
-3.  [CIFAR-10 and CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar.html)
+1.  [MNIST](http://yann.lecun.com/exdb/mnist/): [[Keras](https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py)] [[Torch](https://github.com/torch/demos/blob/master/train-a-digit-classifier/train-on-mnist.lua)][[Tensorflow1](https://www.tensorflow.org/get_started/mnist/beginners)][[Tensorflow2](https://www.tensorflow.org/get_started/mnist/pros)][[PyTorch](https://github.com/pytorch/examples/tree/master/mnist)][[Caffe](http://caffe.berkeleyvision.org/gathered/examples/mnist.html)]
+2.  [CIFAR-10 and CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar.html)
+3.  [Google House Numbers](http://ufldl.stanford.edu/housenumbers/) from street view
 4.  [IMAGENET](http://www.image-net.org/)
 5.  [Tiny Images](http://groups.csail.mit.edu/vision/TinyImages/) 80 Million tiny images6.  
 6.  [Flickr Data](http://yahoolabs.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images) 100 Million Yahoo dataset
@@ -17,7 +17,7 @@
 13. [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)
 14. [AT&T Laboratories Cambridge face database](http://www.uk.research.att.com/facedatabase.html)
 15. [AVHRR Pathfinder](http://xtreme.gsfc.nasa.gov)
-16. [Air Freight](http://www.anc.ed.ac.uk/~amos/afreightdata.html) - The Air Freight data set is a ray-traced image sequence along with ground truth segmentation based on textural characteristics. (455 images + GT, each 160x120 pixels). (Formats: PNG)  
+16. [Air Freight](http://www.anc.ed.ac.uk/~amos/afreightdata.html) - The Air Freight data set is a ray-traced image sequence along with ground truth segmentation based on textural characteristics. (455 images + GT, each 160x120 pixels). (Formats: PNG) 
 17. [Amsterdam Library of Object Images](http://www.science.uva.nl/~aloi/) - ALOI is a color image collection of one-thousand small objects, recorded for scientific purposes. In order to capture the sensory variation in object recordings, we systematically varied viewing angle, illumination angle, and illumination color for each object, and additionally captured wide-baseline stereo images. We recorded over a hundred images of each object, yielding a total of 110,250 images for the collection. (Formats: png)
 18. [Annotated face, hand, cardiac & meat images](http://www.imm.dtu.dk/~aam/) - Most images & annotations are supplemented by various ASM/AAM analyses using the AAM-API. (Formats: bmp,asf)
 19. [Image Analysis and Computer Graphics](http://www.imm.dtu.dk/image/)  
