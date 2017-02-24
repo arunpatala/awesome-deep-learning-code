@@ -1,6 +1,6 @@
 # Results
 
-![Comparisions from FractalNet](/images/fractalnet comparision.png)
+![Comparisions from FractalNet](/fractalnet comparision.png)
 
 
 ## CIFAR 10
