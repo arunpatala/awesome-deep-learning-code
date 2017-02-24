@@ -1,5 +1,8 @@
 # Results
 
+![Comparisions from FractalNet](/images/fractalnet comparision.png)
+
+
 ## CIFAR 10
 1. 2.72 - [Shake-shake (using resnet)](https://openreview.net/forum?id=HkO-PCmYl&noteId=HkO-PCmYl) [[ torch ](https://github.com/xgastaldi/shake-shake)] 24 Feb 2016
 2. 3.40 - [SNAPSHOT ENSEMBLES: TRAIN 1, GET M FOR FREE](https://openreview.net/pdf?id=BJYwwY9ll)[[torch](https://github.com/gaohuang/SnapshotEnsemble)] [[keras](https://github.com/titu1994/Snapshot-Ensembles)] 7 Nov 2016
