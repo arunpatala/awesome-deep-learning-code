@@ -1,22 +1,7 @@
 # Awesome Recurrent Neural Networks for natural language programming
 
-A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
+copied from awesome rnn 
 
-Maintainers - [Myungsub Choi](https://github.com/myungsub), [Taeksoo Kim](https://github.com/jazzsaxmafia), [Jiwon Kim](https://github.com/kjw0612)
-
-We have pages for other topics: [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
-
-
-## Contributing
-Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-vision/pulls), email Myungsub Choi (cms6539@gmail.com) or join our chats to add links.
-
-[![Join the chat at https://gitter.im/kjw0612/awesome-rnn](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kjw0612/awesome-rnn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-## Sharing
-+ [Share on Twitter](http://twitter.com/home?status=http://jiwonkim.org/awesome-rnn%0AResources for Recurrent Neural Networks)
-+ [Share on Facebook](http://www.facebook.com/sharer/sharer.php?u=https://jiwonkim.org/awesome-rnn)
-+ [Share on Google Plus](http://plus.google.com/share?url=https://jiwonkim.org/awesome-rnn)
-+ [Share on LinkedIn](http://www.linkedin.com/shareArticle?mini=true&url=https://jiwonkim.org/awesome-rnn&title=Awesome%20Recurrent%20Neural&Networks&summary=&source=)
 
 ## Table of Contents
 
