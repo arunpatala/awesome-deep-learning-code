@@ -50,8 +50,7 @@ copied from awesome rnn
 
 #### Structure
 
-* Bi-directional RNN [[Paper](http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf)]
-  * Mike Schuster and Kuldip K. Paliwal, *Bidirectional Recurrent Neural Networks*, Trans. on Signal Processing 1997
+* Bi-directional RNN [[Paper](http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf)] [[Keras](https://github.com/fchollet/keras/blob/master/examples/imdb_bidirectional_lstm.py)] [[Tensorflow](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/bidirectional_rnn.py)]  [[Torch](https://github.com/nicholas-leonard/dp/blob/master/examples/recurrentlanguagemodel.lua)]
 * Multi-dimensional RNN [[Paper](http://arxiv.org/pdf/0705.2011.pdf)]
   * Alex Graves, Santiago Fernandez, and Jurgen Schmidhuber, *Multi-Dimensional Recurrent Neural Networks*, ICANN 2007
 * GFRNN [[Paper-arXiv](http://arxiv.org/pdf/1502.02367)] [[Paper-ICML](http://jmlr.org/proceedings/papers/v37/chung15.pdf)] [[Supplementary](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf)]
