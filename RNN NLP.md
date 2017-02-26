@@ -29,6 +29,7 @@ copied from awesome rnn
 ## Tutorials
 * Tensorflow [[RNN Tutorial] (https://www.tensorflow.org/versions/master/tutorials/recurrent/index.html)] [[seq2seq Tutorial](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)] [[char-rnn](https://github.com/sherjilozair/char-rnn-tensorflow)]
 * Torch [[char rnn karpathy](https://github.com/karpathy/char-rnn)] [[faster torch-rnn library](https://github.com/jcjohnson/torch-rnn)] [[neuraltalk2](https://github.com/karpathy/neuraltalk2)][[language model on PTB](https://github.com/wojzaremba/lstm)] [[rnn library](https://github.com/Element-Research/rnn) ] 
+* Keras [[addition rnn](https://github.com/fchollet/keras/blob/master/examples/addition_rnn.py)] [[char rnn](https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py)] [[babi](https://github.com/fchollet/keras/blob/master/examples/babi_rnn.py)] [[babi memory](https://github.com/fchollet/keras/blob/master/examples/babi_memnn.py)] 
 
 ## Theory
 ### Lectures
@@ -38,16 +39,11 @@ copied from awesome rnn
   * [Lecture 13](https://www.youtube.com/watch?v=-yX1SYeDHbg) : (guest lecture) Alex Graves on Hallucination with RNNs
 
 ### Books / Thesis
-* Alex Graves (2008)
-  * [Supervised Sequence Labelling with Recurrent Neural Networks](http://www.cs.toronto.edu/~graves/preprint.pdf)
-* Tomas Mikolov (2012)
-  * [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf)
-* Ilya Sutskever (2013)
-  * [Training Recurrent Neural Networks](http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)
-* Richard Socher (2014)
-  * [Recursive Deep Learning for Natural Language Processing and Computer Vision](http://nlp.stanford.edu/~socherr/thesis.pdf)
-* Ian Goodfellow, Yoshua Bengio, and Aaron Courville (2016)
-  * [The Deep Learning Book chapter 10](http://www.deeplearningbook.org/contents/rnn.html)
+*  [Alex Graves - Supervised Sequence Labelling with Recurrent Neural Networks](http://www.cs.toronto.edu/~graves/preprint.pdf)
+* [Tomas Mikolov - Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf)
+* [Ilya Sutskever - Training Recurrent Neural Networks](http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf)
+* [Richard Socher - Recursive Deep Learning for Natural Language Processing and Computer Vision](http://nlp.stanford.edu/~socherr/thesis.pdf)
+* [The Deep Learning Book chapter 10](http://www.deeplearningbook.org/contents/rnn.html)
 
 
 ### Architecture Variants
