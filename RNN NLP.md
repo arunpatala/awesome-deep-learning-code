@@ -26,61 +26,13 @@ copied from awesome rnn
 - [Blogs](#blogs)
 - [Online Demos](#online-demos)
 
-## Codes
-* [Tensorflow](https://www.tensorflow.org/) - Python, C++
-  * [Get started](https://www.tensorflow.org/versions/master/get_started/index.html), [Tutorials](https://www.tensorflow.org/versions/master/tutorials/index.html)
-    * [Recurrent Neural Network Tutorial](https://www.tensorflow.org/versions/master/tutorials/recurrent/index.html)
-    * [Sequence-to-Sequence Model Tutorial](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)
-  * [Tutorials](https://github.com/nlintz/TensorFlow-Tutorials) by nlintz
-  * [Notebook examples](https://github.com/aymericdamien/TensorFlow-Examples) by aymericdamien
-  * [Scikit Flow (skflow)](https://github.com/tensorflow/skflow) - Simplified Scikit-learn like Interface for TensorFlow
-  * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
-  * [char-rnn-tensorflow](https://github.com/sherjilozair/char-rnn-tensorflow) by sherjilozair: char-rnn in tensorflow
-* [Theano](http://deeplearning.net/software/theano/) - Python
-  * Simple IPython [tutorial on Theano](http://nbviewer.jupyter.org/github/craffel/theano-tutorial/blob/master/Theano%20Tutorial.ipynb)
-  * [Deep Learning Tutorials](http://www.deeplearning.net/tutorial/)
-    * [RNN for semantic parsing of speech](http://www.deeplearning.net/tutorial/rnnslu.html#rnnslu)
-    * [LSTM network for sentiment analysis](http://www.deeplearning.net/tutorial/lstm.html#lstm)
-  * [Pylearn2](http://deeplearning.net/software/pylearn2/) : Library that wraps a lot of models and training algorithms in deep learning
-  * [Blocks](https://github.com/mila-udem/blocks) : modular framework that enables building neural network models
-  * [Keras](http://keras.io/) : (Tensorflow / Theano)-based modular deep learning library similar to Torch
-  * [Lasagne](https://github.com/Lasagne/Lasagne) : Lightweight library to build and train neural networks in Theano
-  * [theano-rnn](https://github.com/gwtaylor/theano-rnn) by Graham Taylor
-  * [Passage](https://github.com/IndicoDataSolutions/Passage) : Library for text analysis with RNNs
-  * [Theano-Lights](https://github.com/Ivaylo-Popov/Theano-Lights) : Contains many generative models
-* [Caffe](https://github.com/BVLC/caffe) - C++ with MATLAB/Python wrappers
-  * [LRCN](http://jeffdonahue.com/lrcn/) by Jeff Donahue
-* [Torch](http://torch.ch/) - Lua
-  * [torchnet](https://github.com/torchnet/torchnet) : modular framework that enables building neural network models
-  * [char-rnn](https://github.com/karpathy/char-rnn) by Andrej Karpathy : multi-layer RNN/LSTM/GRU for training/sampling from character-level language models
-  * [torch-rnn](https://github.com/jcjohnson/torch-rnn) by Justin Johnson : reusable RNN/LSTM modules for torch7 - much faster and memory efficient reimplementation of char-rnn
-  * [neuraltalk2](https://github.com/karpathy/neuraltalk2) by Andrej Karpathy : Recurrent Neural Network captions image, much faster and better version of the original [neuraltalk](https://github.com/karpathy/neuraltalk)
-  * [LSTM](https://github.com/wojzaremba/lstm) by Wojciech Zaremba : Long Short Term Memory Units to train a language model on word level Penn Tree Bank dataset
-  * [Oxford](https://github.com/oxford-cs-ml-2015) by Nando de Freitas : Oxford Computer Science - Machine Learning 2015 Practicals
-  * [rnn](https://github.com/Element-Research/rnn) by Nicholas Leonard : general library for implementing RNN, LSTM, BRNN and BLSTM (highly unit tested).
-* [DL4J](http://deeplearning4j.org/) by [Skymind](http://www.skymind.io/) : Deep Learning library for Java, Scala & Clojure on Hadoop, Spark & GPUs
-  * [Documentation](http://deeplearning4j.org/) (Also in [Chinese](http://deeplearning4j.org/zh-index.html), [Japanese](http://deeplearning4j.org/ja-index.html), [Korean](http://deeplearning4j.org/kr-index.html)) : [RNN](http://deeplearning4j.org/usingrnns.html), [LSTM](http://deeplearning4j.org/lstm.html)
-  * [rnn examples](https://github.com/deeplearning4j/dl4j-examples/tree/master/dl4j-examples/src/main/java/org/deeplearning4j/examples/recurrent)
-* Etc.
-  * [Neon](http://neon.nervanasys.com/docs/latest/index.html): new deep learning library in Python, with support for RNN/LSTM, and a fast image captioning model
-  * [Brainstorm](https://github.com/IDSIA/brainstorm): deep learning library in Python, developed by IDSIA, thereby including various recurrent structures
-  * [Chainer](http://chainer.org/) : new, flexible deep learning library in Python
-  * [CGT](http://joschu.github.io/)(Computational Graph Toolkit) : replicates Theano's API, but with very short compilation time and multithreading
-  * [RNNLIB](https://sourceforge.net/p/rnnl/wiki/Home/) by Alex Graves : C++ based LSTM library
-  * [RNNLM](http://rnnlm.org/) by Tomas Mikolov : C++ based simple code
-  * [faster-RNNLM](https://github.com/yandex/faster-rnnlm) of Yandex : C++ based rnnlm implementation aimed to handle huge datasets
-  * [neuraltalk](https://github.com/karpathy/neuraltalk) by Andrej Karpathy : numpy-based RNN/LSTM implementation
-  * [gist](https://gist.github.com/karpathy/587454dc0146a6ae21fc) by Andrej Karpathy : raw numpy code that implements an efficient batched LSTM
-  * [Recurrentjs](https://github.com/karpathy/recurrentjs) by Andrej Karpathy : a beta javascript library for RNN
-  * [DARQN](https://github.com/5vision/DARQN) by 5vision : Deep Attention Recurrent Q-Network
+## Tutorials
+* Tensorflow [[RNN Tutorial] (https://www.tensorflow.org/versions/master/tutorials/recurrent/index.html)] [[seq2seq Tutorial](https://www.tensorflow.org/versions/master/tutorials/seq2seq/index.html)] [[char-rnn](https://github.com/sherjilozair/char-rnn-tensorflow)]
+* Torch [[char rnn karpathy](https://github.com/karpathy/char-rnn)] [[faster torch-rnn library](https://github.com/jcjohnson/torch-rnn)] [[neuraltalk2](https://github.com/karpathy/neuraltalk2)][[language model on PTB](https://github.com/wojzaremba/lstm)] [[rnn library](https://github.com/Element-Research/rnn) ] 
 
 ## Theory
 ### Lectures
-* Stanford NLP ([CS224d](http://cs224d.stanford.edu/index.html)) by Richard Socher
-  * [Lecture Note 3](http://cs224d.stanford.edu/lecture_notes/LectureNotes3.pdf) : neural network basics
-  * [Lecture Note 4](http://cs224d.stanford.edu/lecture_notes/LectureNotes4.pdf) : RNN language models, bi-directional RNN, GRU, LSTM
-* Stanford vision ([CS231n](http://cs231n.github.io/)) by Andrej Karpathy
-  * About NN basic, and CNN
+* Stanford NLP [[Lecture Note 4](http://cs224d.stanford.edu/lecture_notes/LectureNotes4.pdf)] : RNN language models, bi-directional RNN, GRU, LSTM
 * Oxford [Machine Learning](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) by Nando de Freitas
   * [Lecture 12](https://www.youtube.com/watch?v=56TYLaQN4N8) : Recurrent neural networks and LSTMs
   * [Lecture 13](https://www.youtube.com/watch?v=-yX1SYeDHbg) : (guest lecture) Alex Graves on Hallucination with RNNs
