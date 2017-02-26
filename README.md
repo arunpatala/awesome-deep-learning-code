@@ -3,42 +3,20 @@
 This list will contain deep learning code on github arranged in lists (with increasing difficulty).
 
 
-1. Basics
-   MNIST
-   CIFAR
-   SVHN
-2. Frameworks
-   Tensorflow
-   Keras
-   Torch
-   Pytorch
-3. Images
-   Classification
-   Object detection
-   Object Segmentation
-   Image captioning
-   Visual Question Answering
-   Super resolution
-4. Neural Painting
-5. GAN
-6. Driverless
-7. Medical
-8. Kaggle
-9. Speech recognition
-10. Faces
-11. NLP
-12. RNN
+
+### Architectures
+* Densenets [[Paper](http://arxiv.org/abs/1608.06993)]  [[Caffe Implementation](https://github.com/liuzhuang13/DenseNetCaffe)] [[Torch] (https://github.com/gaohuang/DenseNet_lite)]  [[Tensorflow1] (https://github.com/YixuanLi/densenet-tensorflow)] [[Tensorflow2] (https://github.com/LaurentMazare/deep-models/tree/master/densenet)] [[Tensorflow3] (https://github.com/ikhlestov/vision_networks)] [[Keras1] (https://github.com/tdeboissiere/DeepLearningImplementations/tree/master/DenseNet)] [[Keras2] (https://github.com/robertomest/convnet-study)] [[Keras3] (https://github.com/titu1994/DenseNet)] [[Chainer2] (https://github.com/t-hanya/chainer-DenseNet)] [[Chainer2] (https://github.com/yasunorikudo/chainer-DenseNet)]  [[PyTorch](https://github.com/andreasveit/densenet-pytorch)] [[PyTorch](https://github.com/bamos/densenet.pytorch)]
+  * DenseNet is a network architecture where each layer is directly connected to every other layer in a feed-forward fashion (within each dense block). For each layer, the feature maps of all preceding layers are treated as separate inputs whereas its own feature maps are passed on as inputs to all subsequent layers. This connectivity pattern yields state-of-the-art accuracies on CIFAR10/100 (with or without data augmentation) and SVHN. 
+* RESNETS [[Paper](http://arxiv.org/pdf/1512.03385v1.pdf)][[blog](http://torch.ch/blog/2016/02/04/resnets.html)][[Slides](http://kaiminghe.com/icml16tutorial/icml2016_tutorial_deep_residual_networks_kaiminghe.pdf)][[Author github](https://github.com/KaimingHe/deep-residual-networks)][[Keras](https://github.com/fchollet/deep-learning-models)][[TF-Slim](https://github.com/tensorflow/models/tree/master/slim#Pretrained)][[Torch](https://github.com/facebook/fb.resnet.torch)][[PyTorch](https://github.com/pytorch/vision)][[Caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo)]
+  * Residual networks add identity skip connnection to layers which makes the layers learn residual transformations. This helps in efficient gradient flow and is currently used in all major network implemetations.
+  * VARIATIONS: Stochastic depth[[Torch](https://github.com/yasunorikudo/chainer-ResDrop)][[Keras](https://github.com/dblN/stochastic_depth_keras)][[Chainer](https://github.com/yasunorikudo/chainer-ResDrop)], Wide Residual Networks [[Torch](https://github.com/szagoruyko/wide-residual-networks)][[Keras](https://github.com/asmith26/wide_resnets_keras)], [resnext](https://github.com/facebookresearch/ResNeXt)
+* Highway Networks [[Paper1](https://arxiv.org/abs/1607.03474)] [[code](https://github.com/julian121266/RecurrentHighwayNetworks)] [[Paper2](http://arxiv.org/abs/1507.06228)][[Lasagne](https://github.com/Lasagne/Lasagne/blob/highway_example/examples/Highway%20Networks.ipynb)][[Caffe](https://github.com/flukeskywalker/highway-networks)][[Torch](https://github.com/yoonkim/lstm-char-cnn/blob/master/model/HighwayMLP.lua)][[blog](https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa#.r2msk226f)] [[Tensorflow](https://github.com/fomorians/highway-cnn)]
+  * Highway networks, inspired by LSTMs, are a method of constructing networks with hundreds, even thousands, of layers.
+* Inception [[paper1](http://arxiv.org/abs/1409.4842v1)][[paper2](http://arxiv.org/abs/1502.03167)][[paper3](http://arxiv.org/abs/1512.00567)][[paper4](http://arxiv.org/abs/1602.07261)][[paper with ResNet combined](http://arxiv.org/abs/1602.07261)][[Tensorflow](https://github.com/tensorflow/models/tree/master/inception)][[TF-slim](https://github.com/tensorflow/models/edit/master/slim/README.md)][[Keras v3](https://github.com/fchollet/deep-learning-models)][[Torch](https://github.com/Moodstocks/inception-v3.torch)][PyTorch]
+  * Googles imagenet models using inception architecture that have networks in networks (hence the name). The latest implementation combines inception along with resnets.
+* VGG-Net [[Web]](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) [[Paper]](http://arxiv.org/pdf/1409.1556)[[TF-slim](https://github.com/tensorflow/models/edit/master/slim/README.md)][[Keras](https://github.com/fchollet/deep-learning-models)][[Torch](https://github.com/Moodstocks/inception-v3.torch)][[PyTorch](https://github.com/pytorch/vision)]
+  * From their website : "Our main contribution is a rigorous evaluation of networks of increasing depth, which shows that a significant improvement on the prior-art configurations can be achieved by increasing the depth to 16-19 weight layers, which is substantially deeper than what has been used in the prior art. To reduce the number of parameters in such very deep networks, we use very small 3×3 filters in all convolutional layers (the convolution stride is set to 1)."
+* AlexNet [[Paper]](http://papers.nips.cc/book/advances-in-neural-information-processing-systems-25-2012)[[PyTorch](https://github.com/pytorch/vision)][[Torch](https://github.com/eladhoffer/ImageNet-Training)][[TF-Slim](https://github.com/tensorflow/models/blob/master/slim/nets/alexnet.py)][[Torch](https://github.com/soumith/imagenet-multiGPU.torch)]
+  * The first deep neural network to prove their performance on Imagenet
 
 
-16. Courses assignments
-17. Architectures
-   VGG
-   Inception
-   Resnet
-   Densenet
-18. Datasets
-   MNIST
-   CIFAR 10 and 100
-   SVHN
-   Imagenet
-   
